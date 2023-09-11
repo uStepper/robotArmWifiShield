@@ -505,7 +505,7 @@ function joystickControl(){
 	var feedrateX = 0;
 	var feedrateY = 0;
 	var feedrateZ = 0;
-	
+	lastG1CommandCount += 1;
 
 	joystickMinValue = 10.0;
 	joystickMaxValue = 100.0;
