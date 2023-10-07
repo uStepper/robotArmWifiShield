@@ -600,7 +600,7 @@ function joystickControl(){
 	var command = [
 		{name: "Y", value: feedrateX.toFixed(1) },
 		{name: "X", value: feedrateY.toFixed(1) },
-		{name: "Z", value: feedrateZ.toFixed(1) },
+		{name: "Z", value: -feedrateZ.toFixed(1) },
 	];
 
 	if(JSON.stringify(command) != JSON.stringify(lastG1Command))
