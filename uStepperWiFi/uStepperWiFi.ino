@@ -12,7 +12,7 @@ WebSocketsServer websocket = WebSocketsServer(81);
 bool startOTA = 0;
 GCode link;
 
-const char* VERSION = "0.1.0";
+const char* VERSION = "0.1.1";
 const char *ssid = "uStepper-Arm";
 const char *password = "12345679";
 
